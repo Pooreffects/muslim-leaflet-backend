@@ -71,3 +71,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Todos - Feature Implementations
+
+- [x] Create Auth Module
+- [x] Setting up ground work; controller routing and provider business logic for the auth module.
