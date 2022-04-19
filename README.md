@@ -60,4 +60,7 @@ $ npm run test:cov
 
 - [x] Create Auth Module
 - [x] Setting up ground work; controller routing and provider business logic for the auth module.
-- [x] quick fix, add an eslint rule to disable prettier/prettier
+- [x] Add an eslint rule to disable prettier/prettier
+- [x] Create a User Module
+- [ ] Create a DB connection
+      `Note: I have not executed this step cause it requires me to install docker thus WSL2 on my machine that I am about to change btw`
