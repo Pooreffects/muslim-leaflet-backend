@@ -59,10 +59,11 @@ $ npm run test:cov
 ## Features
 
 This API provides endpoints for:
-  - '/daily-prayers' that ships with prayers that every Muslim should udelize on a day-to-day.
-  - '/qoran' Readonly
-  - 'qoran-audio' coming soon
-  - 'qoran-reciters' coming soon 
+
+- '/daily-prayers' that ships with prayers that every Muslim should udelize on a day-to-day.
+- '/qoran' Readonly
+- 'qoran-audio' coming soon
+- 'qoran-reciters' coming soon
 
 ## Todos - Feature Implementations
 
@@ -70,7 +71,10 @@ This API provides endpoints for:
 - [x] Setting up ground work; controller routing and provider business logic for the auth module.
 - [x] Add an eslint rule to disable prettier/prettier
 - [x] Create a User Module
-- [ ] Set up prisma
-- [ ] Create a DB connection
+- [x] Set up prisma-cli and prisma-client
+- [x] Create a DB connection
       `Note: I have not executed this step cause it requires me to install docker thus WSL2 on my machine that I am about to change btw`
       `Work Around: I am going to spin up a SQLite DB`
+- [x] Add Prisma model and run first migration
+- [x] Seed database with dailyPrayers
+- [ ] Create a Nest module and service for PrismaClient
