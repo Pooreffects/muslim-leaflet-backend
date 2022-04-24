@@ -15,8 +15,7 @@ model DailyPrayer {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  Quotee String
+  category String
   description String
-  Reference String
   published Boolean @default(false) 
 }
